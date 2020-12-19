@@ -43,8 +43,19 @@ End Sub
 
 ### 将工作簿切换为活动工作簿
 ``` vb
-Work("Sheets1").Activate
+Workbooks("工作簿1").Activate
 ```
 
-##操作工作表
+## 操作工作表
+### 引用sheets的方法
+``` vb
+Worksheets(2) '索引号
+Worksheets("Sheets1") 'Name
+Name '属性窗口中的代码名称（Name），在性质上不同于标签名称，只能在属性窗口修改
+```
+### 获取sheets数量 在复制表、移动表时很有用
+``` vb
+Worksheets.Count
+```
 
+### sheets和worksheets的区别
