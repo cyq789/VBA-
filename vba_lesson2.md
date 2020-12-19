@@ -34,7 +34,7 @@ Sub 打开文件()
     ActiveWindow.WindowState = xlNormal
 	
 	'以下这句为关键语句
-    Workbooks.Open Filename:="C:\Users\TB468XF\Desktop\学习资料\excel\Tool\录入表单.xlsx"
+    Workbooks.Open Filename:="C:\Users\678687698687\Desktop\学习资料\excel\Tool\录入表单.xlsx"
     
 	Windows("lesson1.xlsx").Activate
 End Sub
